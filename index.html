@@ -1,0 +1,906 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal portfolio — replace this sample content with your own."
+    />
+    <title>Nasima Alizada</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Go to homepage"
+          >Nasima<span>.</span></a
+        >
+        <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <button
+            class="icon-btn"
+            id="themeToggle"
+            type="button"
+            aria-label="Switch to light mode"
+            title="Toggle light/dark mode"
+          >
+            <svg
+              id="themeIcon"
+              width="19"
+              height="19"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path
+                d="M20.2 15.4A8.3 8.3 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"
+              />
+            </svg>
+          </button>
+
+          <button
+            class="menu-btn"
+            id="menuToggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            >
+              <path d="M4 7h16M4 12h16M4 17h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="star-field" id="starField" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="availability">
+              <span class="status-dot"></span> Available for selected
+              opportunities
+            </div>
+
+            <p class="eyebrow">Hello, I'm</p>
+
+            <h1 class="serif">
+              <span class="name-line">Nasima Alizada</span>
+              <span class="role-line">FrontEnd<br />&amp;Developer.</span>
+            </h1>
+
+            <p class="hero-lead">
+              I'm a Frontend Web Developer passionate about building responsive,
+              user-friendly, and visually appealing websites. I work with HTML,
+              CSS, JavaScript, and React to turn ideas into engaging digital
+              experiences with clean, maintainable code.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects"
+                >Explore my work <span aria-hidden="true">↗</span></a
+              >
+              <a class="btn btn-secondary" href="#contact">Get in touch</a>
+            </div>
+            <div class="hero-meta">
+              <div><strong>Based in</strong> Kabul, Afghanistan</div>
+              <div><strong>Focus</strong> Frontend · Responsive Design</div>
+            </div>
+          </div>
+          <div class="hero-visual" id="heroVisual">
+            <div class="profile-card" id="profileCard">
+              <div class="card-top">
+                <span>Personal portfolio</span><span>01 / 06</span>
+              </div>
+              <div class="card-mark">
+                <div class="orbit"></div>
+                <!-- To use your own photo, put it beside index.html and name it profile-photo.jpg,
+                   or change the src below to your image filename/path. -->
+                <img
+                  class="profile-photo"
+                  src="profile-photo.jpg"
+                  alt="My profile photo"
+                  onerror="this.hidden = true"
+                />
+                <span class="monogram">NA</span>
+              </div>
+
+              <div class="card-bottom">
+                <div>
+                  <strong class="serif">Turning ideas into reality.</strong>
+                  <span>Learning, building, and growing.</span>
+                </div>
+                <span class="card-index">EST. 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-cue">Scroll to discover</div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container about-grid">
+          <div class="about-note reveal">
+            <p class="eyebrow">A little introduction</p>
+            <div class="big-number serif">01<span class="accent">.</span></div>
+            <h3
+              class="serif"
+              style="font-size: 1.6rem; font-weight: 400; margin: 16px 0 0"
+            >
+              Every great website starts with an idea.
+            </h3>
+            <p>
+              I turn ideas into responsive, accessible, and user-friendly web
+              experiences, one project at a time.
+            </p>
+          </div>
+
+          <div class="about-text reveal">
+            <div class="section-head">
+              <p class="eyebrow">About me</p>
+              <h2 class="serif">
+                Building for the web with <span class="accent">purpose.</span>
+              </h2>
+            </div>
+
+            <p>
+              I'm an aspiring Frontend Web Developer passionate about creating
+              modern, responsive, and visually appealing websites. I enjoy
+              transforming ideas into interactive digital experiences that are
+              intuitive, accessible, and easy to use.
+            </p>
+
+            <p>
+              My journey in web development has introduced me to HTML, CSS,
+              JavaScript, and Git, and I'm currently expanding my skills in
+              React, responsive interface development, and API integration.
+              Through practical projects and continuous learning, I'm working to
+              strengthen my technical skills and build meaningful digital
+              solutions.
+            </p>
+
+            <p>
+              Beyond coding, I'm interested in collaborating with others,
+              learning from real-world challenges, and using technology to help
+              individuals and businesses establish a stronger online presence.
+              My goal is to grow as a developer while creating websites that
+              combine thoughtful design with practical functionality.
+            </p>
+
+            <div class="quick-facts">
+              <div class="fact">
+                <small>Current focus</small>
+                <strong>Frontend Development</strong>
+              </div>
+              <div class="fact">
+                <small>Learning</small>
+                <strong>React &amp; API Integration</strong>
+              </div>
+              <div class="fact">
+                <small>Languages</small>
+                <strong>English · Dari </strong>
+              </div>
+              <div class="fact">
+                <small>Open to</small>
+                <strong>Projects &amp; Collaboration</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="education">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Education &amp; learning</p>
+            <h2 class="serif">
+              Education, <span class="accent">certifications</span> &amp;
+              training.
+            </h2>
+            <p>
+              My educational background and ongoing learning reflect my
+              commitment to developing practical skills in frontend development
+              and modern web technologies.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="item-top">
+                <h3>Web Development &amp; No-Code Solutions</h3>
+                <span class="date">Currently Studying</span>
+              </div>
+              <div class="item-sub">
+                Horizon Bridge Consulting (HBC) · Kabul, Afghanistan
+              </div>
+              <p>
+                Studying web development through a practical learning program,
+                building responsive websites, developing interactive interfaces,
+                and strengthening my skills through hands-on projects.
+              </p>
+              <div class="tags">
+                <span class="tag">Web Development</span>
+                <span class="tag">HTML &amp; CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">React</span>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="item-top">
+                <h3>Web Development</h3>
+                <span class="date">4-Month Program · In Progress</span>
+              </div>
+              <div class="item-sub">Coursera · Online</div>
+              <p>
+                Expanding my knowledge of website development through structured
+                online learning and practical exercises, with a focus on modern
+                frontend technologies and web development fundamentals.
+              </p>
+              <div class="tags">
+                <span class="tag">Online Learning</span>
+                <span class="tag">Frontend Development</span>
+                <span class="tag">Practical Projects</span>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="item-top">
+                <h3>Introduction to Front-End Development</h3>
+                <span class="date">Certificate Earned</span>
+              </div>
+              <div class="item-sub">Meta · Coursera</div>
+              <p>
+                Completed introductory frontend development training covering
+                the foundations of web development, HTML, CSS, JavaScript, and
+                responsive web design.
+              </p>
+              <div class="tags">
+                <span class="tag">Meta Certificate</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="item-top">
+                <h3>Web Design Fundamentals</h3>
+                <span class="date">Certificate Earned</span>
+              </div>
+              <div class="item-sub">CodeToInspire Academy</div>
+              <p>
+                Completed web design fundamentals training, developing a
+                foundation in website structure, visual presentation, and
+                essential web design principles.
+              </p>
+              <div class="tags">
+                <span class="tag">Certificate</span>
+                <span class="tag">Web Design</span>
+                <span class="tag">Design Fundamentals</span>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="item-top">
+                <h3>Artificial Intelligence Seminar</h3>
+                <span class="date">October 6, 2026</span>
+              </div>
+              <div class="item-sub">Seminar · Certificate of Participation</div>
+              <p>
+                Participated in an AI seminar to explore artificial intelligence
+                concepts and their applications in technology.
+              </p>
+              <div class="tags">
+                <span class="tag">Artificial Intelligence</span>
+                <span class="tag">Seminar</span>
+                <span class="tag">Certificate</span>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="item-top">
+                <h3>High School Diploma</h3>
+                <span class="date">2021</span>
+              </div>
+              <div class="item-sub">
+                Mohammad Asif Mayel High School · Afghanistan
+              </div>
+              <p>
+                Completed secondary education, establishing the academic
+                foundation for my continued learning in technology and web
+                development.
+              </p>
+              <div class="tags">
+                <span class="tag">Secondary Education</span>
+                <span class="tag">Graduated 2021</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Tools of the trade</p>
+            <h2 class="serif">
+              Skills &amp; <span class="accent">expertise.</span>
+            </h2>
+            <p>
+              My technical skills, development tools, and professional strengths
+              help me turn ideas into responsive and user-friendly web
+              experiences.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <div class="skill-icon">⌘</div>
+              <h3>Frontend Development</h3>
+              <p>
+                Building interactive web interfaces with modern frontend
+                technologies and clean, maintainable code.
+              </p>
+              <div class="skill-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <div class="skill-icon">◇</div>
+              <h3>Responsive Design</h3>
+              <p>
+                Creating user-friendly interfaces that adapt to different screen
+                sizes and provide a consistent browsing experience.
+              </p>
+              <div class="skill-list">
+                <span>Mobile-First Design</span>
+                <span>Flexbox</span>
+                <span>CSS Grid</span>
+                <span>Bootstrap</span>
+                <span>Tailwind CSS · Learning</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <div class="skill-icon">▦</div>
+              <h3>Development Tools</h3>
+              <p>
+                Using development tools to write code, manage projects, and
+                collaborate through version control.
+              </p>
+              <div class="skill-list">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>npm</span>
+                <span>Vite</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <div class="skill-icon">⌬</div>
+              <h3>AI-Assisted Development</h3>
+              <p>
+                Using AI tools to support website design, generate code,
+                troubleshoot errors, explore ideas, and improve development
+                workflows.
+              </p>
+              <div class="skill-list">
+                <span>AI Website Development</span>
+                <span>AI-Assisted Coding</span>
+                <span>Prompt Writing</span>
+                <span>Debugging Support</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <div class="skill-icon">◎</div>
+              <h3>Web Development Practices</h3>
+              <p>
+                Applying essential development practices to create functional,
+                maintainable, and accessible websites.
+              </p>
+              <div class="skill-list">
+                <span>Form Validation</span>
+                <span>Debugging</span>
+                <span>Semantic HTML</span>
+                <span>Documentation</span>
+              </div>
+            </article>
+
+            <article class="skill-card reveal">
+              <div class="skill-icon">↗</div>
+              <h3>Professional Skills</h3>
+              <p>
+                Approaching projects with a willingness to learn, attention to
+                detail, and a collaborative mindset.
+              </p>
+              <div class="skill-list">
+                <span>Continuous Learning</span>
+                <span>Adaptability</span>
+                <span>Teamwork &amp; Collaboration</span>
+                <span>Attention to Detail</span>
+                <span>Communication</span>
+                <span>Critical Thinking</span>
+                <span>Time Management</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="experience">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Where I've contributed</p>
+            <h2 class="serif">
+              Experience &amp; <span class="accent">growth.</span>
+            </h2>
+            <p>
+              Include professional roles, internships, volunteering, freelance
+              work, or relevant research.
+            </p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="item-top">
+                <h3>Junior Web Developer</h3>
+                <span class="date">2024 — Present</span>
+              </div>
+              <div class="item-sub">
+                Example Technology Studio · Sample role
+              </div>
+              <p>
+                Helped build and maintain responsive web interfaces,
+                collaborated with designers, and improved usability through
+                iterative testing. Replace this description with your actual
+                responsibilities and measurable results.
+              </p>
+              <div class="tags">
+                <span class="tag">Frontend</span
+                ><span class="tag">UI implementation</span
+                ><span class="tag">Collaboration</span>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="item-top">
+                <h3>Technology Intern</h3>
+                <span class="date">Summer 2023</span>
+              </div>
+              <div class="item-sub">Example Organization · Internship</div>
+              <p>
+                Supported a small team with research, technical documentation,
+                and testing. Add a concise summary of the work you did and what
+                changed because of it.
+              </p>
+              <div class="tags">
+                <span class="tag">Research</span><span class="tag">Testing</span
+                ><span class="tag">Documentation</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Selected work</p>
+            <h2 class="serif">
+              Projects with <span class="accent">purpose.</span>
+            </h2>
+            <p>
+              Feature a few strong projects. Explain the problem, your
+              contribution, and the technologies used.
+            </p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-art">
+                <div class="mock-window">
+                  <div class="mock-dots"><i></i><i></i><i></i></div>
+                  <div class="mock-line medium"></div>
+                  <div class="mock-line"></div>
+                  <div class="mock-line short"></div>
+                  <div class="mock-line medium"></div>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="eyebrow">Web application</p>
+                <h3>Project One — Study Planner</h3>
+                <p>
+                  A sample productivity app that helps students organize study
+                  sessions, track tasks, and build consistent habits.
+                </p>
+                <div class="tags">
+                  <span class="tag">HTML/CSS</span
+                  ><span class="tag">JavaScript</span
+                  ><span class="tag">Local storage</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/" target="_blank" rel="noreferrer"
+                    >Source code ↗</a
+                  ><a href="#contact">Ask me about it ↗</a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-art">
+                <div class="mock-window">
+                  <div class="mock-dots"><i></i><i></i><i></i></div>
+                  <div class="mock-line short"></div>
+                  <div style="display: flex; gap: 7px; margin: 12px 0">
+                    <div
+                      style="
+                        height: 48px;
+                        flex: 1;
+                        border-radius: 7px;
+                        background: var(--accent-soft);
+                      "
+                    ></div>
+                    <div
+                      style="
+                        height: 48px;
+                        flex: 1;
+                        border-radius: 7px;
+                        background: var(--accent-soft);
+                      "
+                    ></div>
+                    <div
+                      style="
+                        height: 48px;
+                        flex: 1;
+                        border-radius: 7px;
+                        background: var(--accent-soft);
+                      "
+                    ></div>
+                  </div>
+                  <div class="mock-line medium"></div>
+                  <div class="mock-line"></div>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="eyebrow">Data &amp; dashboard</p>
+                <h3>Project Two — Insight Board</h3>
+                <p>
+                  A sample dashboard concept for presenting key metrics in a
+                  clear, accessible, and easy-to-understand format.
+                </p>
+                <div class="tags">
+                  <span class="tag">Data visualization</span
+                  ><span class="tag">Dashboard UI</span
+                  ><span class="tag">Analysis</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/" target="_blank" rel="noreferrer"
+                    >Source code ↗</a
+                  ><a href="#contact">Ask me about it ↗</a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-art">
+                <div class="mock-window">
+                  <div class="mock-dots"><i></i><i></i><i></i></div>
+                  <div class="mock-line medium"></div>
+                  <div class="mock-line short"></div>
+                  <div
+                    style="
+                      height: 56px;
+                      margin: 12px 0;
+                      border-radius: 8px;
+                      border: 1px solid var(--line);
+                      display: grid;
+                      place-items: center;
+                      color: var(--accent);
+                      font-size: 1.2rem;
+                    "
+                  >
+                    {" } }
+                  </div>
+                  <div class="mock-line medium"></div>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="eyebrow">Developer tool</p>
+                <h3>Project Three — Utility API</h3>
+                <p>
+                  A small utility service designed to solve a focused problem
+                  with a straightforward developer experience.
+                </p>
+                <div class="tags">
+                  <span class="tag">API</span><span class="tag">Backend</span
+                  ><span class="tag">Testing</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/" target="_blank" rel="noreferrer"
+                    >Source code ↗</a
+                  ><a href="#contact">Ask me about it ↗</a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-art">
+                <div class="mock-window">
+                  <div class="mock-dots"><i></i><i></i><i></i></div>
+                  <div
+                    style="
+                      display: flex;
+                      align-items: center;
+                      gap: 12px;
+                      margin: 14px 0;
+                    "
+                  >
+                    <div
+                      style="
+                        width: 44px;
+                        height: 44px;
+                        border-radius: 50%;
+                        background: var(--accent-soft);
+                        border: 1px solid var(--line);
+                      "
+                    ></div>
+                    <div style="flex: 1">
+                      <div class="mock-line"></div>
+                      <div class="mock-line short"></div>
+                    </div>
+                  </div>
+                  <div class="mock-line medium"></div>
+                  <div class="mock-line"></div>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="eyebrow">Design &amp; experience</p>
+                <h3>Project Four — Digital Portfolio</h3>
+                <p>
+                  A responsive personal site focused on typography,
+                  accessibility, subtle motion, and a consistent visual system.
+                </p>
+                <div class="tags">
+                  <span class="tag">UI/UX</span
+                  ><span class="tag">Accessibility</span
+                  ><span class="tag">Responsive design</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/" target="_blank" rel="noreferrer"
+                    >Source code ↗</a
+                  ><a href="#contact">Ask me about it ↗</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contact">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Start a conversation</p>
+            <h2 class="serif">
+              Let's build something <span class="accent">meaningful.</span>
+            </h2>
+            <p>
+              I'm open to collaborations, internships, practical projects with
+              local businesses in Kabul, and opportunities to learn and grow. If
+              you have an idea or opportunity to discuss, I'd love to hear from
+              you.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Information -->
+            <div class="contact-copy reveal">
+              <h3>Get in touch</h3>
+              <p>
+                Have a project in mind or an opportunity to share? Let's connect
+                and explore how we can work together.
+              </p>
+
+              <div class="contact-detail">
+                <span class="detail-icon" aria-hidden="true">✉</span>
+                <div>
+                  <small>Email</small>
+                  <a href="mailto:nasimaalizada00@gmail.com">
+                    nasimaalizada00@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <span class="detail-icon" aria-hidden="true">⌖</span>
+                <div>
+                  <small>Location</small>
+                  <strong>Kabul, Afghanistan</strong>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <span class="detail-icon" aria-hidden="true">in</span>
+                <div>
+                  <small>LinkedIn</small>
+                  <a
+                    href="https://www.linkedin.com/in/nasima-alizada-a368173a6/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Connect with me on LinkedIn ↗
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <span class="detail-icon" aria-hidden="true">⌘</span>
+                <div>
+                  <small>GitHub</small>
+                  <a
+                    href="https://github.com/nasima633"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Explore my projects on GitHub ↗
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <span class="detail-icon" aria-hidden="true">↗</span>
+                <div>
+                  <small>Freelancer</small>
+                  <a
+                    href="https://www.freelancer.com/u/nasimasaba2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View my Freelancer profile ↗
+                  </a>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <span class="social-symbol" aria-hidden="true">◎</span>
+                  Instagram
+                </a>
+
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <span class="social-symbol" aria-hidden="true">f</span>
+                  Facebook
+                </a>
+
+                <a
+                  href="https://x.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="X"
+                >
+                  <span class="social-symbol" aria-hidden="true">𝕏</span>
+                  X
+                </a>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form reveal" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="field">
+                  <label for="contactName">Your name</label>
+                  <input
+                    type="text"
+                    id="contactName"
+                    name="name"
+                    placeholder="Enter your name"
+                    autocomplete="name"
+                    required
+                    minlength="2"
+                    maxlength="80"
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="contactEmail">Your email</label>
+                  <input
+                    type="email"
+                    id="contactEmail"
+                    name="email"
+                    placeholder="you@example.com"
+                    autocomplete="email"
+                    required
+                    maxlength="254"
+                  />
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="contactSubject">Subject</label>
+                <input
+                  type="text"
+                  id="contactSubject"
+                  name="subject"
+                  placeholder="What would you like to discuss?"
+                  required
+                  minlength="3"
+                  maxlength="120"
+                />
+              </div>
+
+              <div class="field">
+                <label for="contactMessage">Message</label>
+                <textarea
+                  id="contactMessage"
+                  name="message"
+                  placeholder="Tell me about your idea or opportunity..."
+                  required
+                  minlength="10"
+                  maxlength="5000"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Prepare Email <span aria-hidden="true">↗</span>
+              </button>
+
+              <p
+                class="form-note"
+                id="formNote"
+                role="status"
+                aria-live="polite"
+              >
+                Complete the fields to prepare an email. Your email application
+                will open when you submit the form.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <span
+          >© <span id="year"></span> Nasima Alizada. Made with intention.</span
+        >
+        <div class="footer-links">
+          <a href="#home">Back to top ↑</a><a href="#projects">Projects</a
+          ><a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
